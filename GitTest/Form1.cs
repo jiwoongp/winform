@@ -29,7 +29,9 @@ namespace GitTest
 
         private void button3_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("test3");
+
+            this.label1.Text = "출력";
+
         }
     }
 }
